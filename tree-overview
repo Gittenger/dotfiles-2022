@@ -1,0 +1,109 @@
+.
+├── code-oss
+│   ├── extensions
+│   │   └── list
+│   └── User
+│       ├── keybindings.json
+│       ├── settings.json
+│       └── snippets
+│           ├── javascript.json
+│           ├── javascriptreact.json
+│           └── nextjs.code-snippets
+├── conda
+│   └── condarc
+├── npm
+│   └── list
+├── nvim
+│   ├── general
+│   │   └── settings.vim
+│   ├── init.vim
+│   └── vim-plug
+│       └── plugins.vim
+├── sys
+│   └── arch
+│       ├── config
+│       │   ├── alacritty--alacritty.yaml
+│       │   ├── fd--ignore
+│       │   ├── kdedefaults--kdeglobals
+│       │   ├── konsolerc
+│       │   ├── kwinrc
+│       │   ├── kwinrulesrc
+│       │   ├── latte--my-layout.layout.latte
+│       │   └── rsync--exclude
+│       ├── etc
+│       │   ├── mkinitcpio.conf
+│       │   ├── sudoers
+│       │   ├── sysd--sys--getty.t.wants--getty@tty1.service
+│       │   ├── vconsole.conf
+│       │   └── zsh--zshenv
+│       └── local
+│           └── share
+│               └── konsole
+│                   ├── john.profile
+│                   ├── john-t.profile
+│                   ├── Shadows-Konsole.colorscheme
+│                   ├── Shadows-Konsole-T.colorscheme
+│                   └── Sonokai (Andromeda).colorscheme
+├── vim
+│   ├── general
+│   │   └── settings.vim
+│   ├── init.vim
+│   └── vim-plug
+│       └── plugins.vim
+├── vim-shared
+│   ├── coc-settings.json
+│   ├── colors
+│   │   ├── airline-themes
+│   │   │   └── onehalfdark.vim
+│   │   ├── codedark.vim
+│   │   ├── distinguished.vim
+│   │   └── onehalfdark.vim
+│   ├── general
+│   │   └── paths.vim
+│   ├── keys
+│   │   └── mappings.vim
+│   ├── plug-config
+│   │   ├── coc.vim
+│   │   ├── easymotion.vim
+│   │   ├── fzf.vim
+│   │   ├── hexokinase.vim
+│   │   ├── prettier.vim
+│   │   ├── rainbow-brackets.vim
+│   │   ├── vim-emmet.vim
+│   │   ├── vim-grepper.vim
+│   │   └── vim-snippets.vim
+│   ├── utils
+│   │   └── snippets
+│   │       ├── css.snippets
+│   │       └── javascript.snippets
+│   └── vim-plug
+└── zsh
+    ├── conf
+    │   ├── aliases.zsh
+    │   ├── apps.zsh
+    │   ├── _globals.zsh
+    │   ├── plug.zsh
+    │   ├── scripts
+    │   │   ├── dirslist.zsh
+    │   │   ├── functions.zsh
+    │   │   ├── linuxfns.zsh
+    │   │   ├── rclone.zsh
+    │   │   ├── supercd.zsh
+    │   │   ├── syncdirs.zsh
+    │   │   └── updateBlogPosts.zsh
+    │   ├── sys-utils
+    │   │   └── cache.zsh
+    │   └── utils
+    │       ├── completion.zsh
+    │       ├── git.zsh
+    │       ├── history.zsh
+    │       ├── key-bindings.zsh
+    │       └── theming.zsh
+    ├── end-scripts.zsh
+    ├── installed-plugins
+    ├── plugins
+    │   └── git.zsh
+    ├── themes-list
+    └── zshrc
+
+34 directories, 72 files
