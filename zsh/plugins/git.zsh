@@ -30,6 +30,7 @@ function git_develop_branch() {
 
 
 alias g='git'
+alias ga='git add'
 alias gaa='git add --all'
 alias gap='git apply'
 alias gb='git branch'
