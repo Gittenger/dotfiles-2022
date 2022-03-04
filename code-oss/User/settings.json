@@ -1,4 +1,5 @@
 {
+	"bracketPairColorizer.depreciation-notice": false,
 	"security.workspace.trust.untrustedFiles": "open",
 	"telemetry.telemetryLevel": "off",
 	"files.autoSave": "off",
