@@ -1,3 +1,8 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/John.layout.latte,file:$HOME/John.layout.latte
+Recent URLs[$e]=file:$HOME/
+detailViewIconSize=16
+
 [LatteSettingsDialog]
 downloadWindowSize=980,600
 windowSize=1100,750
@@ -25,6 +30,6 @@ metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
-singleModeLayoutName=My Layout
+singleModeLayoutName=Default
 userConfiguredAutostart=true
 version=2
