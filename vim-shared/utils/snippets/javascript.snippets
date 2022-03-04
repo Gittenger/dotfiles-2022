@@ -1,0 +1,105 @@
+# NextJS
+snippet api "Nextjs Api handler"
+export default async function handler(req, res) {
+	const { query, method } = req
+	await dbConnect()
+	${1}
+}
+endsnippet
+
+snippet dbconn "DB Connect"
+import dbConnect from '${1}../../utils/dbConnect'
+endsnippet
+
+snippet resp "Nextjs Response" 
+res.status($1).json({
+	success: ${2}
+})
+endsnippet
+
+# Vanilla JS
+snippet rqu "require statement"
+const ${1} = require('${2}')
+endsnippet
+
+snippet contr "express controller"
+exports.${1} = catchAsync(async (req, res, next) => {
+	${2}
+})
+endsnippet
+
+snippet dsobj "destructure object"
+const { ${2} } = ${1}
+endsnippet
+
+snippet dsarr "destructure array"
+const [ ${2} ] = ${1}
+endsnippet
+
+snippet trycatch "try catch block"
+try {
+	${2}
+}
+catch (err) {
+	${1}
+}
+endsnippet
+
+snippet cns "const function"
+const ${1} = ${2}
+endsnippet
+
+snippet lt "let function"
+let ${1} = ${2}
+endsnippet
+
+snippet log "Console log"
+console.log(${1})
+endsnippet
+
+snippet impb "import with bracket"
+import { ${2} } from '${1}'
+endsnippet
+
+snippet impd "import default"
+import ${2} from '${1}'
+endsnippet
+
+# react.js
+
+snippet imr "import react"
+import React from 'react'
+
+endsnippet
+
+snippet rfc "React functional component"
+import React from 'react'
+
+const ${1} = ({${2}}) => {
+
+return (
+	<div>
+		<div>
+			Component ${3}
+		</div>
+	</div>
+	)
+}
+
+export default ${1}
+endsnippet
+
+snippet sfc "stateless functional component"
+const ${1} = ({${2}}) => {
+
+return (
+	<div>
+		<div>
+			Component ${3}
+		</div>
+	</div>
+	)
+}
+
+export default ${1}
+endsnippet
