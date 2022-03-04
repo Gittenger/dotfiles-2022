@@ -5,6 +5,6 @@
 	},
 	"snippets.ultisnips.directories": [
 		"UltiSnips",
-		"~/.config/nvim/utils/snippets"
+		"~/.config/_vim-shared/utils/snippets"
 	]
 }
