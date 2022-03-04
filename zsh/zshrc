@@ -1,0 +1,26 @@
+# set theme
+ZSH_THEME="oxide"
+source $ZDOTDIR/themes/$ZSH_THEME.zsh-theme
+
+# enable recursive tabbed auto-completion
+autoload -U compinit; compinit
+
+# source all my conf files
+for arg in $ZDOTDIR/conf/*;
+ do
+	if  [[ -d "${arg}" ]]
+	 then for f in $arg/*;
+	  do source $f; done
+	elif [[ -f "${arg}" ]]
+	 then source $arg
+	else echo "${arg} not valid"
+	 exit 1
+	fi
+ done
+
+# cust bindings
+bindkey '^ ' autosuggest-accept
+bindkey '^R' fzf-history-widget
+
+source $ZDOTDIR/end-scripts.zsh
+
