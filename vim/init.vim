@@ -1,0 +1,12 @@
+	source $HOME/.config/vim/vim-plug/plugins.vim
+	source $HOME/.config/vim/general/settings.vim
+	source $HOME/.config/vim/general/paths.vim
+	source $HOME/.config/vim/keys/mappings.vim
+	source $HOME/.config/vim/plug-config/prettier.vim
+	source $HOME/.config/vim/plug-config/coc.vim
+	source $HOME/.config/vim/plug-config/fzf.vim
+	source $HOME/.config/vim/plug-config/easymotion.vim
+	source $HOME/.config/vim/plug-config/vim-grepper.vim
+	source $HOME/.config/vim/plug-config/rainbow-brackets.vim
+	source $HOME/.config/vim/plug-config/vim-emmet.vim
+	source $HOME/.config/vim/plug-config/hexokinase.vim
