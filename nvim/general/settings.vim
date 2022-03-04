@@ -23,6 +23,7 @@ set nobackup											" coc recommend
 set nowritebackup									" coc recommend
 "set formatoptions-=cro						" stop newline completion of comments
 syntax on
+set termguicolors
 
 " color scheme
 let g:sonokai_style='andromeda'
