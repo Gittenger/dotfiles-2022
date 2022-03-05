@@ -25,6 +25,11 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#f9d2fa,bg:#151f1a,hl:#67a
 [[ -s /home/john/.config/zsh/plugins/autojump/etc/profile.d/autojump.sh ]] && source /home/john/.config/zsh/plugins/autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
+## enhancd
+export ENHANCD_DIR=$HOME/.local/share/enhancd
+source $ZPLUG/enhancd/init.sh
+
+## other
 source $ZPLUG/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZPLUG/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZPLUG/git.zsh
