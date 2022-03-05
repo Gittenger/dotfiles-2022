@@ -3,6 +3,8 @@ export TERM=alacritty
 export HISTFILE=$ZDOTDIR/history
 export EDITOR=nvim
 
+export ANSIWEATHERRC=$HOME/.config/ansiweatherrc
+
 # locale
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
