@@ -21,6 +21,9 @@ export FZF_ALT_C_COMMAND="fd -t d . $HOME"
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#f9d2fa,bg:#151f1a,hl:#67a1db --color=fg+:#ff91f6,bg+:#071a0d,hl+:#70dbff --color=info:#e6e6ca,prompt:#ff0000,pointer:#af5fff --color=marker:#87ff00,spinner:#f3ff05,header:#87afaf'
 
 ########
+## autojump
+[[ -s /home/john/.config/zsh/plugins/autojump/etc/profile.d/autojump.sh ]] && source /home/john/.config/zsh/plugins/autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
 
 source $ZPLUG/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZPLUG/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
