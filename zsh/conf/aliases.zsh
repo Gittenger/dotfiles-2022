@@ -21,6 +21,7 @@ alias spotify='flatpak run com.spotify.Client &!'
 alias gch='google-chrome &!'
 alias ff='firefox &!'
 alias wrtr='libreoffice --writer $1 &'
+alias aw='ansiweather'
 
 # MISC TASKS
 alias pyserve='python -m http.server 8000'
