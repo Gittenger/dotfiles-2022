@@ -3,7 +3,7 @@ DefaultProfile=john.profile
 
 [MainWindow]
 HDMI-1 Height 1920x1080=1060
-HDMI-1 Width 1920x1080=1920
+HDMI-1 Width 1920x1080=960
 HDMI-1 Window-Maximized 1920x1080=true
 HDMI-1 XPosition 1920x1080=960
 HDMI-1 YPosition 1920x1080=20
