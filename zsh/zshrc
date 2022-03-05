@@ -1,5 +1,5 @@
 # set theme
-ZSH_THEME="oxide"
+ZSH_THEME="bullet-train"
 source $ZDOTDIR/themes/$ZSH_THEME.zsh-theme
 
 # enable recursive tabbed auto-completion

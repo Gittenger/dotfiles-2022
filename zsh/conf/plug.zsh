@@ -33,3 +33,18 @@ source $ZPLUG/enhancd/init.sh
 source $ZPLUG/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZPLUG/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZPLUG/git.zsh
+
+## theme -- bullet-train
+BULLETTRAIN_PROMPT_ORDER=(
+  time
+  dir
+  nvm
+  git
+)
+BULLETTRAIN_TIME_12HR=true
+BULLETTRAIN_TIME_FG='cyan'
+BULLETTRAIN_DIR_BG='magenta'
+BULLETTRAIN_GIT_COLORIZE_DIRTY=true
+BULLETTRAIN_GIT_COLORIZE_DIRTY_BG_COLOR='red'
+
+
