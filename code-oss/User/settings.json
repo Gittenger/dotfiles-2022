@@ -18,7 +18,28 @@
 		"titleBar.activeBackground": "#1d1e22",
 		"titleBar.inactiveBackground": "#20232c",
 		"titleBar.activeForeground": "#FFB86C",
-		"titleBar.inactiveForeground": "#7a6c5c"
+		"titleBar.inactiveForeground": "#7a6c5c",
+
+		"terminal.background": "#282a36",
+		"terminal.foreground": "#f8f8f2",
+		"terminalCursor.background": "#6272A4",
+		"terminalCursor.foreground": "#f8f8f2",
+		"terminal.ansiBlack": "#282936",
+		"terminal.ansiBlue": "#BD93F9",
+		"terminal.ansiBrightBlack": "#6272a4",
+		"terminal.ansiBrightBlue": "#D6ACFF",
+		"terminal.ansiBrightCyan": "#A4FFFF",
+		"terminal.ansiBrightGreen": "#69FF94",
+		"terminal.ansiBrightMagenta": "#FF92DF",
+		"terminal.ansiBrightRed": "#ff5555",
+		"terminal.ansiBrightWhite": "#F7F7FB",
+		"terminal.ansiBrightYellow": "#FFFFA5",
+		"terminal.ansiCyan": "#8BE9FD",
+		"terminal.ansiGreen": "#50fa7b",
+		"terminal.ansiMagenta": "#FF79C6",
+		"terminal.ansiRed": "#ff5555",
+		"terminal.ansiWhite": "#E9E9F4",
+		"terminal.ansiYellow": "#f1fa8c"
 	},
 	"workbench.editorAssociations": {
 		"*.ipynb": "jupyter.notebook.ipynb"
