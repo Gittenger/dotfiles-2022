@@ -1,0 +1,2 @@
+source ~/.config/_shell-shared/conf/aliases.sh
+source ~/.config/_shell-shared/plugins/git.sh
