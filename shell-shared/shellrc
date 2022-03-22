@@ -1,0 +1,21 @@
+export ZDOTDIR=$HOME/.config/zsh
+export BASHDIR=$HOME/.config/bash
+export SHARESHELLDIR=$HOME/.config/_shell-shared
+
+# source all my conf files
+srcRecur() {
+	for arg in $1/*;
+	 do
+		if  [[ -d "${arg}" ]]
+		 then for f in $arg/*;
+			do source $f; done
+		elif [[ -f "${arg}" ]]
+		 then source $arg
+		else echo "${arg} not valid"
+		 exit 1
+		fi
+	 done
+}
+
+srcRecur $SHARESHELLDIR/conf
+srcRecur $SHELLDIR/conf
