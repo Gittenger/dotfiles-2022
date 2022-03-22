@@ -17,4 +17,4 @@ export LOCALAPPS=$HOME/.local/share
 # app-specific locations
 export GOPATH=$LOCALAPPS/go
 export ZPLUG=$ZDOTDIR/plugins
-
+export BPLUG=$BASHDIR/plugins
