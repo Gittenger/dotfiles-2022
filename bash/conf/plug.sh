@@ -27,6 +27,3 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#f9d2fa,bg:#151f1a,hl:#67a
 ## enhancd
 export ENHANCD_DIR=$HOME/.local/share/enhancd
 source $BPLUG/enhancd/init.sh
-
-## other
-source $BPLUG/git.sh

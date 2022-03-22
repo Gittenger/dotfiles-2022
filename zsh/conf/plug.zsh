@@ -31,7 +31,6 @@ source $ZPLUG/enhancd/init.sh
 ## other
 source $ZPLUG/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZPLUG/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $ZPLUG/git.zsh
 source $ZPLUG/k/k.sh
 
 
