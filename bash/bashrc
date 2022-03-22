@@ -1,0 +1,35 @@
+export ZDOTDIR="$HOME/.config/zsh"
+export BASHDIR="$HOME/.config/bash"
+export SHELL=/usr/bin/bash
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+
+bind 'TAB:menu-complete'
+bind '"\e[Z":menu-complete-backward'
+
+# set theme
+eval "$(starship init bash)"
+
+# source all my conf files
+for arg in $BASHDIR/conf/*;
+ do
+	if  [[ -d "${arg}" ]]
+	 then for f in $arg/*;
+	  do source $f; done
+	elif [[ -f "${arg}" ]]
+	 then source $arg
+	else echo "${arg} not valid"
+	 exit 1
+	fi
+ done
+
+# only do this in standard shell
+# use custom brc for MC (HACK)
+# source $BPLUG/ble.sh/out/ble.sh
+
+#default
+#PS1='[\u@\h \W]\$ '
+#export PS1='$ '
