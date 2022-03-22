@@ -2,8 +2,11 @@
 ZSH_THEME="bullet-train"
 source $ZDOTDIR/themes/$ZSH_THEME.zsh-theme
 
+# bashdir, for aliases
+export BASHDIR=$HOME/.config/bash
+
 # enable recursive tabbed auto-completion
-autoload -U compinit; compinit
+autoload -U compinit && compinit -u
 
 # source all my conf files
 for arg in $ZDOTDIR/conf/*;
