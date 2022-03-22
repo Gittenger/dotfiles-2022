@@ -1,17 +1,17 @@
 ########
 # FZF ##
 # ------
-if [[ ! "$PATH" == *$ZPLUG/fzf/bin* ]]; then
-  export PATH="${PATH:+${PATH}:}$ZPLUG/fzf/bin"
+if [[ ! "$PATH" == *$LOCALAPPS/fzf/bin* ]]; then
+  export PATH="${PATH:+${PATH}:}$LOCALAPPS/fzf/bin"
 fi
 
 # Auto-completion
 # ---------------
-[[ $- == *i* ]] && source "$ZPLUG/fzf/shell/completion.zsh" 2> /dev/null
+[[ $- == *i* ]] && source "$LOCALAPPS/fzf/shell/completion.zsh" 2> /dev/null
 
 # Key bindings
 # ------------
-source "$ZPLUG/fzf/shell/key-bindings.zsh"
+source "$LOCALAPPS/fzf/shell/key-bindings.zsh"
 
 # Setting fd as the default source for fzf
 export FZF_DEFAULT_COMMAND='fd --type f'
@@ -23,7 +23,6 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#f9d2fa,bg:#151f1a,hl:#67a
 ########
 ## autojump
 [[ -s /home/john/.config/zsh/plugins/autojump/etc/profile.d/autojump.sh ]] && source /home/john/.config/zsh/plugins/autojump/etc/profile.d/autojump.sh
-autoload -U compinit && compinit -u
 
 ## enhancd
 export ENHANCD_DIR=$HOME/.local/share/enhancd
