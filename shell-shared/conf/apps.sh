@@ -1,0 +1,1 @@
+/home/john/.config/_shell-shared/conf/apps.sh
