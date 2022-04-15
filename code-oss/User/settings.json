@@ -132,9 +132,10 @@
 	"vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
 	"vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim-vscode/init.vim",
 	"python.autoComplete.extraPaths": [
-		"/home/john/.local/share/miniconda3/bin/python"
+		"~/.local/share/miniconda3/envs/vscode/bin/python3"
 	],
-	"python.defaultInterpreterPath": "/usr/bin/python3",
-	"python.languageServer": "Jedi",
-	"python.analysis.extraPaths": ["/usr/local/lib/python3.8"]
+	"python.defaultInterpreterPath": "~/.local/share/miniconda3/envs/vscode/bin/python3",
+	"python.formatting.provider": "autopep8",
+	"python.formatting.autopep8Path": "~/.local/share/miniconda3/envs/vscode/bin/autopep8",
+	"python.languageServer": "Jedi"
 }
