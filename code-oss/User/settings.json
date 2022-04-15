@@ -135,6 +135,6 @@
 		"/home/john/.local/share/miniconda3/bin/python"
 	],
 	"python.defaultInterpreterPath": "/usr/bin/python3",
-	"python.languageServer": "Pylance",
+	"python.languageServer": "Jedi",
 	"python.analysis.extraPaths": ["/usr/local/lib/python3.8"]
 }
