@@ -73,4 +73,5 @@ alias grhh='git reset --hard'
 alias gst='git status'
 alias gsb='git status -sb'
 alias gsh='git show'
+alias grso='git remote show origin'
 
