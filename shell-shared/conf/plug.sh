@@ -1,1 +1,1 @@
-/home/john/.config/_shell-shared/conf/plug.sh
+source $SHARESHELLDIR/plugins/git.sh
