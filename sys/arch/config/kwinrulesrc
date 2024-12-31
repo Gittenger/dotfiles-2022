@@ -9,10 +9,17 @@ noborderrule=3
 wmclass=konsole
 wmclassmatch=1
 
+[16417927-863f-4a2e-be0f-6b2dfaf19599]
+Description=New window settings
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+types=1
+
 [2]
 Description=Application settings for alacritty
 clientmachine=localhost
-noborder=true
 noborderrule=3
 wmclass=alacritty
 wmclassmatch=1
@@ -25,6 +32,14 @@ titlematch=1
 types=1
 wmclass=alacritty
 wmclassmatch=1
+
+[3]
+Description=New window settings
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+types=1
 
 [36e6bf77-4bff-4a58-beea-3422bef50000]
 Description=Application settings for alacritty
@@ -51,8 +66,8 @@ wmclass=alacritty
 wmclassmatch=1
 
 [General]
-count=2
-rules=1,2
+count=3
+rules=1,2,3
 
 [c2038010-0c23-4ffa-9711-3073ceac3327]
 Description=Application settings for alacritty

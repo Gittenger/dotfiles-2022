@@ -17,6 +17,9 @@ outlineWidth=1
 
 [ScreenConnectors]
 10=HDMI-1:::0,0 1920x1080
+11=DP-1:::0,0 1920x1080
+12=DP-2:::4480,360 1920x1080
+13=DP-3:::1920,0 2560x1440
 
 [UniversalSettings]
 badges3DStyle=false

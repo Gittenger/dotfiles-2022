@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 OpenGLIsUnsafe=false
@@ -21,11 +21,26 @@ BorderActivate=7
 BorderActivate=3
 BorderActivateAll=9
 
+[Effect-desktopgrid]
+BorderActivate=7
+
 [Effect-kwin4_effect_translucency]
 Dialogs=99
 Inactive=92
 Menus=93
 MoveResize=78
+
+[Effect-presentwindows]
+BorderActivate=3
+BorderActivateAll=9
+Dialogs=99
+Inactive=92
+Menus=93
+MoveResize=78
+
+[Effect-windowview]
+BorderActivate=3
+BorderActivateAll=9
 
 [NightColor]
 LatitudeAuto=39.0968
@@ -39,9 +54,27 @@ kwin4_effect_translucencyEnabled=true
 magiclampEnabled=true
 overviewEnabled=true
 
+[Tiling]
+padding=4
+
+[Tiling][268b3c13-d88c-5905-ad7b-9fbd20be4074]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][848f4fdd-6a12-5b24-8128-744e69cd06c9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][a8849f22-d2ab-5716-819c-2e81b1e7cc1e]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][f2edef47-38fb-578f-9899-9d446da88162]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][fd581d6f-ebb8-5590-b06e-52875531a6c9]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
 ElectricBorderCooldown=250
-ElectricBorderCornerRatio=0.21
+ElectricBorderCornerRatio=0.08
 ElectricBorderDelay=75
 
 [org.kde.kdecoration2]
